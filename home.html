@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <link href="maincss.css" rel="stylesheet">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME - S.A.R.T.A.D.S</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&family=IBM+Plex+Sans&family=Montserrat&family=Nunito+Sans:ital,opsz@0,6..12;1,6..12&family=Open+Sans:ital@1&family=Orbitron&family=Poppins&family=Raleway&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="s.ico" type="image/x-icon">
+    <script src="js/home.js" defer></script>
+    <script src="js/quizjs.js" type="module"></script>
+
+
+</head>
+
+<body>
+    <!-- Libras -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+          
+        </div>
+        
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <!-- Cabecalho -->
+    <header>
+        <div class="limitador">
+            <div id="container_header">
+                <div class="caixa1">
+                    <a href="login.html" class="p1">
+                        S.A.R.T <br/>
+                        A.D.S
+                    </a>
+                </div>
+
+                <div class="menu">
+                    <a href="#" id="home"><i class="bi bi-house"></i> Home</a>
+                    <a href="professor.html"><i class="bi bi-file-person"></i> Docente</a>
+                    <a href="local.html"><i class="bi bi-globe-americas"></i> Locais</a>
+                    <a href="notícias.html"><i class="bi bi-cup-hot"></i> Noticiais</a>
+                </div>
+
+                <div class="perfil">
+                    <div class="img_pai">
+                        <div class="img">
+                            <img src="img/usuario.png" alt="perfil">
+                            
+                        </div>
+                    </div>
+                    <div class="nome_usuario">
+                        <a href="#">Asdrúbal Beltrano</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Corpo -->
+    <section>
+        <div class="container_section">
+            <div id="conteudo">
+                    <div class="box_pai_cima">
+                        <div class="box1">
+                            <div class="tema">
+                                <h2>Moradias</h2>
+                                <p>Informacoes importantes sobre moradias disponiveis</p>
+                            </div>
+                            <div class="box_card_pai">
+                                <button id="prev-button"><i class="bi bi-caret-left"></i></button>
+                                    <div class="card_completo on">
+                                        <div class="card_casa">
+                                            <div class="card_casa_cima">
+                                                <div class="casa">
+                                                    <img src="img/casa1.jpg" alt="casa_alugar">
+                                                </div>
+                                                <div class="informacoes">
+                                                    <h6>Nome do proprietario</h6>
+                                                    <p>Ethan Anderson</p>
+                                                    <h6>Endereco</h6>
+                                                    <p>Rua das Flores,123 - Bairro das Colinas</p>
+                                                </div>
+                                            </div>
+                                            <div class="card_casa_meio">
+                                                <p>
+                                                    Bem-vindo à casa de campo encantadora, uma mistura de rústico e moderno,
+                                                    cercada por um exuberante jardim. Ambiente acolhedor com lareira e 
+                                                    quartos espaçosos. Deck ao ar livre para apreciar a natureza. Um refúgio sereno para a vida contemporânea.</p>
+                                            </div>
+                                            <div class="card_casa_baixo">
+                                                <a href="https://api.whatsapp.com/send?phone=77999394325" target="_blank"><i class="bi bi-whatsapp"></i> Chamar</a>
+                                            </div>
+            
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="card_completo">
+                                        <div class="card_casa">
+                                            <div class="card_casa_cima">
+                                                <div class="casa">
+                                                    <img src="img/casa2.jpeg" alt="casa_alugar">
+                                                </div>
+                                                <div class="informacoes">   
+                                                    <h6>Nome do proprietario</h6>
+                                                    <p>Olivia Parker</p>
+                                                    <h6>Endereco</h6>
+                                                    <p>Avenida dos Sonhos,456 - Bairro da Liberdade</p>
+                                                </div>
+                                            </div>
+                                            <div class="card_casa_meio">
+                                                <p>
+                                                    Encante-se com esta deslumbrante casa de 4 quartos, onde o luxo se encontra com o conforto em cada detalhe. O amplo 
+                                                    jardim convida à tranquilidade e ao contato com a naturez.</p>
+                                            </div>
+                                            <div class="card_casa_baixo">
+                                                <a href="https://api.whatsapp.com/send?phone=77999394325" target="_blank"><i class="bi bi-whatsapp"></i> Chamar</a>
+                                            </div>
+            
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="card_completo">
+                                        <div class="card_casa">
+                                            <div class="card_casa_cima">
+                                                <div class="casa">
+                                                    <img src="img/casa3.jpg" alt="casa_alugar">
+                                                </div>
+                                                <div class="informacoes">
+                                                    <h6>Nome do proprietario</h6>
+                                                    <p>Antonios Santos</p>
+                                                    <h6>Endereco</h6>
+                                                    <p>Praça da Felicidade,789 - Bairro da Alegria</p>
+                                                </div>
+                                            </div>
+                                            <div class="card_casa_meio">
+                                                <p>
+                                                    Explore o estilo de vida moderno nesta casa recém-construída, com seus acabamentos de alta qualidade e design contemporâneo. 
+                                                    As amplas janelas permitem uma profusão de luz natural, destacando os espaços abertos e aconchegantes.</p>
+                                            </div>
+                                            <div class="card_casa_baixo">
+                                                <a href="https://api.whatsapp.com/send?phone=77999394325" target="_blank"><i class="bi bi-whatsapp"></i> Chamar</a>
+                                            </div>
+            
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="card_completo">
+                                        <div class="card_casa">
+                                            <div class="card_casa_cima">
+                                                <div class="casa">
+                                                    <img src="img/casa4.jpeg" alt="casa_alugar">
+                                                </div>
+                                                <div class="informacoes">
+                                                    <h6>Nome do proprietario</h6>
+                                                    <p>Alice Johnson</p>
+                                                    <h6>Endereco</h6>
+                                                    <p>Alameda das Estrelas,321 - Bairro do Sol Nascente</p>
+                                                </div>
+                                            </div>
+                                            <div class="card_casa_meio">
+                                                <p>
+                                                    Localizada em uma das melhores áreas da cidade, esta casa é um verdadeiro oásis urbano. 
+                                                    Com uma piscina refrescante, churrasqueira e um lindo jardim paisagístico, é o cenário 
+                                                    perfeito para entretenimento e lazer. </p>
+                                            </div>
+                                            <div class="card_casa_baixo">
+                                                <a href="https://api.whatsapp.com/send?phone=77999394325" target="_blank"><i class="bi bi-whatsapp"></i> Chamar</a>
+                                            </div>
+            
+                                        </div>  
+                                        
+                                    </div>
+                                <button id="next-button"><i class="bi bi-caret-right"></i></button>
+                            </div> 
+                            
+                        </div>
+
+
+                        <div class="box2">
+                            <div class="tema">
+                                <h2>Grade e Horarios de aula</h2>
+                                <p>Informacoes importantes sobre a grade e os Horarios de suas aulas</p>
+                            </div>
+                            <div class="grade">
+                                <a href="https://www.ifbaiano.edu.br/unidades/guanambi/files/2015/12/Matriz.pdf"target="_blank">Grade Curricular</a>
+                                <br>
+                                <p>A grade curricular é um plano estruturado e organizado que define os conteúdos, 
+                                    disciplinas e atividades que compõem o curso de Analise e Desenvolvimento de Sistema. 
+                                    Ela serve como guia para o currículo acadêmico, estabelecendo quais conhecimentos, 
+                                    habilidades e competências os alunos devem adquirir ao longo do período de estudo.</p>
+                            </div>
+                            <div class="horarios">
+                                <a href="#" target="_blank">Horarios de Aula</a>
+                                <br>
+                                <p>O horário de aula é o cronograma que determina os horários e dias em que as aulas acontecem 
+                                    durante o periodo do curso. É uma parte essencial da rotina educacional, pois organiza o tempo disponível para o aprendizado e 
+                                    garante a cobertura adequada do currículo.</p>
+                                    <h5>Contendo todos os Horarios de aula de todas as turmas!</h5>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="box_pai_meio">
+                        <div class="box_meio_esquerda">
+                            <div class="tema">
+                                <h2>Transporte</h2>
+                                <p>Informacoes importantes sobre os Motorista que levam ao if</p>
+                            </div>
+                            <div class="box_card_pai">
+                                <button id="prev-button1"><i class="bi bi-caret-left"></i></button>
+                                    <div class="card_completo1 on1">
+                                        <div class="card_casa">
+                                            <div class="card_casa_cima">
+                                                <div class="casa">
+                                                    <img src="img/motorista1.jpeg" alt="motorista">
+                                                </div>
+                                                <div class="informacoes">
+                                                    <h6>Nome do Motorista</h6>
+                                                    <p>Clara Roberts</p>
+                                                    <h6>Valor</h6>
+                                                    <p>O valor mensal eh de 180R$ <br></p> 
+                                                </div>
+                                            </div>
+                                            <div class="card_casa_meio">
+                                                <p>
+                                                    Rota das Maravilhas: Esta linha de ônibus percorre os pontos turísticos mais famosos da cidade, incluindo museus, 
+                                                    parques e monumentos icônicos. Uma jornada emocionante e repleta de descobertas para moradores .</p>
+                                            </div>
+                                            <div class="card_casa_baixo">
+                                                <a href="https://api.whatsapp.com/send?phone=77999394325" target="_blank"><i class="bi bi-whatsapp"></i> Chamar</a>
+                                            </div>
+            
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="card_completo1">
+                                        <div class="card_casa">
+                                            <div class="card_casa_cima">
+                                                <div class="casa">
+                                                    <img src="img/motorista2.avif" alt="motorista">
+                                                </div>
+                                                <div class="informacoes">   
+                                                    <h6>Nome do Motorista</h6>
+                                                    <p>Michael Turner</p>
+                                                    <h6>Valor</h6>
+                                                    <p>O valor mensal eh de 180R$ <br></p> 
+                                                </div>
+                                            </div>
+                                            <div class="card_casa_meio">
+                                                <p>
+                                                    Caminho Verdejante: A linha do ônibus Caminho Verdejante proporciona uma viagem relaxante através de exuberantes 
+                                                    áreas verdes e paisagens naturais. Ideal para os amantes da natureza.</p>
+                                            </div>
+                                            <div class="card_casa_baixo">
+                                                <a href="https://api.whatsapp.com/send?phone=77999394325" target="_blank"><i class="bi bi-whatsapp"></i> Chamar</a>
+                                            </div>
+            
+                                        </div>
+                                    </div>
+                                    <div class="card_completo1">
+                                        <div class="card_casa">
+                                            <div class="card_casa_cima">
+                                                <div class="casa">
+                                                    <img src="img/motorista3.jpeg" alt="motorista">
+                                                </div>
+                                                <div class="informacoes">
+                                                    <h6>Nome do Motorista</h6>
+                                                    <p>Daniel Mitchell</p>
+                                                    <h6>Valor</h6>
+                                                    <p>O valor mensal eh de 180R$ <br></p> 
+                                                </div>
+                                            </div>
+                                            <div class="card_casa_meio">
+                                                <p>
+                                                    Rota do Conhecimento: Conectando universidades, bibliotecas e centros educacionais, a Rota do Conhecimento é a escolha perfeita 
+                                                    para estudantes e acadêmicos que buscam uma jornada intelectual.</p>
+                                            </div>
+                                            <div class="card_casa_baixo">
+                                                <a href="https://api.whatsapp.com/send?phone=77999394325" target="_blank"><i class="bi bi-whatsapp"></i> Chamar</a>
+                                            </div>
+            
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="card_completo1">
+                                        <div class="card_casa">
+                                            <div class="card_casa_cima">
+                                                <div class="casa">
+                                                    <img src="img/motorista4.avif" alt="motorista">
+                                                </div>
+                                                <div class="informacoes">
+                                                    <h6>Nome do Motorista</h6>
+                                                    <p>Sophia Davis</p>
+                                                    <h6>Valor</h6>
+                                                    <p>O valor mensal eh de 180R$ <br></p> 
+                                                </div>
+                                            </div>
+                                            <div class="card_casa_meio">
+                                                <p>
+                                                    Linha Urbana Noturna: Projetada para atender às necessidades dos notívagos e profissionais que trabalham até tarde, 
+                                                    a Linha Urbana Noturna mantém-se ativa durante a madrugada. Seus pontos incluem áreas de entretenimento, restaurantes.</p>
+                                            </div>
+                                            <div class="card_casa_baixo">
+                                                <a href="https://api.whatsapp.com/send?phone=77999394325" target="_blank"><i class="bi bi-whatsapp"></i> Chamar</a>
+                                            </div>
+            
+                                        </div>
+                                        
+                                    </div>
+                                <button id="next-button1"><i class="bi bi-caret-right"></i></button>
+                            </div> 
+                        </div>
+                        <div class="box_meio_direita">
+                            <div class="tema">
+                                <h2>C.A</h2>
+                                <p>Informacoes importantes sobre os Centro Academico do Curso</p>
+                            </div>
+                            <div class="ca">
+                                <p>O Centro Acadêmico de Análise e Desenvolvimento de Sistemas é uma organização estudantil atuante e engajada, 
+                                    representando os alunos do curso no insituto federeal Baiano de Guanambi. Composto por estudantes apaixonados 
+                                    por tecnologia, inovação e programação, o Centro Acadêmico desempenha um papel fundamental na vida acadêmica dos 
+                                    alunos.Seu objetivo principal é promover a integração e a troca de conhecimentos entre os estudantes, oferecendo uma 
+                                    variedade de atividades, como palestras, workshops e eventos sociais. Essas iniciativas permitem que os alunos
+                                    aprofundem seus conhecimentos na área de Análise e Desenvolvimento de Sistemas, além de proporcionar networking e oportunidades 
+                                    de aprendizado prático.
+                                    <br>
+                                    O Centro Acadêmico também representa os interesses dos alunos junto à coordenação do curso e à instituição, buscando melhorias 
+                                    na estrutura curricular, infraestrutura e outras questões relevantes para a formação acadêmica. Além disso, promove a participação
+                                    em projetos e competições, incentivando o desenvolvimento de habilidades técnicas e o espírito empreendedor dos estudantes.
+                                    <br>
+                                    Com uma gestão dinâmica e participativa, o Centro Acadêmico de Análise e Desenvolvimento de Sistemas é uma fonte de inspiração e 
+                                    motivação para os alunos, contribuindo significativamente para o enriquecimento da experiência acadêmica e o sucesso profissional
+                                     dos futuros profissionais da área de tecnologia.
+                                </p>
+   
+                            </div>
+                                <a href="https://www.instagram.com/ca.adsgbi/" target="_blank"><i class="bi bi-instagram"></i> Acessar</a>
+                            
+                        </div>
+                    </div>
+                    <div class="box_pai_baixo">
+                        <div class="box_baixo_esquerda">
+                            <div class="tema">
+                                <h2>TCC</h2>
+                                <p>Informacoes importantes sobre os TCC dos discentes formado em ADS</p>
+                            </div>
+                            <div class="box_card_pai">
+                                <button id="prev-button2"><i class="bi bi-caret-left"></i></button>
+                                    <div class="card_completo2 on2">
+                                        <div class="card_casa">
+                                            <div class="card_casa_cima">
+                                                <div class="casa">
+                                                    <img src="img/aluno1.avif" alt="aluno">
+                                                </div>
+                                                <div class="informacoes">
+                                                    <h6>Nome do Discente</h6>
+                                                    <p>Pedro Oliveira</p>
+                                                    <h6>Ano de formação</h6>
+                                                    <p>Formado em 2016</p>
+                                                </div>
+                                            </div>
+                                            <div class="card_casa_meio">
+                                                <p>"Aplicativo de Saúde Mental" - Desenvolvimento de app terapêutico.</p>
+                                            </div>
+                                            <div class="card_casa_baixo">
+                                                <a href="https://ifbaiano.edu.br/portal/ads-guanambi/" target="_blank"><i class="bi bi-filetype-pdf"></i> Acessar</a>
+                                            </div>
+            
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="card_completo2">
+                                        <div class="card_casa">
+                                            <div class="card_casa_cima">
+                                                <div class="casa">
+                                                    <img src="img/aluno2.avif" alt="aluno">
+                                                </div>
+                                                <div class="informacoes">   
+                                                    <h6>Nome do Discente</h6>
+                                                    <p>Lucas Mendes</p>
+                                                    <h6>Ano de formação</h6>
+                                                    <p>Formado em 2019</p>
+                                                </div>
+                                            </div>
+                                            <div class="card_casa_meio">
+                                                <p>"Sustentabilidade Urbana em Edifícios" - Estratégias para redução de energia.</p>
+                                            </div>
+                                            <div class="card_casa_baixo">
+                                                <a href="https://ifbaiano.edu.br/portal/ads-guanambi/" target="_blank"><i class="bi bi-filetype-pdf"></i> Acessar</a>
+                                            </div>
+            
+                                        </div>
+                                    </div>
+                                    <div class="card_completo2">
+                                        <div class="card_casa">
+                                            <div class="card_casa_cima">
+                                                <div class="casa">
+                                                    <img src="img/aluno3.jpeg" alt="aluno">
+                                                </div>
+                                                <div class="informacoes">
+                                                    <h6>Nome do Discente</h6>
+                                                    <p>Larissa Silva</p>
+                                                    <h6>Ano de formação</h6>
+                                                    <p>Formado em 2010</p>
+                                                </div>
+                                            </div>
+                                            <div class="card_casa_meio">
+                                                <p>"Realidade Virtual na Educação Infantil" - Impacto da RV na aprendizagem.</p>
+                                            </div>
+                                            <div class="card_casa_baixo">
+                                                <a href="https://ifbaiano.edu.br/portal/ads-guanambi/" target="_blank"><i class="bi bi-filetype-pdf"></i> Acessar</a>
+                                            </div>
+            
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="card_completo2">
+                                        <div class="card_casa">
+                                            <div class="card_casa_cima">
+                                                <div class="casa">
+                                                    <img src="img/aluno4.jpeg" alt="aluno">
+                                                </div>
+                                                <div class="informacoes">
+                                                    <h6>Nome do Discente</h6>
+                                                    <p>Clara Santos</p>
+                                                    <h6>Ano de formação</h6>
+                                                    <p>Formado em 2023</p>
+                                                </div>
+                                            </div>
+                                            <div class="card_casa_meio">
+                                                <p>"Inteligência Artificial no Diagnóstico de Doenças Cardíacas" - Uso de IA para diagnósticos precisos.</p>
+                                            </div>
+                                            <div class="card_casa_baixo">
+                                                <a href="https://ifbaiano.edu.br/portal/ads-guanambi/" target="_blank"><i class="bi bi-filetype-pdf"></i> Acessar</a>
+                                            </div>
+            
+                                        </div>
+                                        
+                                    </div>
+                                <button id="next-button2"><i class="bi bi-caret-right"></i></button>
+                            </div> 
+                        </div>
+                        <div class="box_baixo_direita">
+                            <div class="tema">
+                                <h2>Quiz</h2>
+                                <p>Jogo interessante sobre sua nova area de estudo</p>
+                                
+                            </div>
+                            <div class="content">
+                                <div class="content_quiz">
+                                    <div class="titulo_quiz">
+                                        <h2>Teste Seus Conhecimentos</h2>
+                                    </div>
+                                    <div class="question"></div>
+                                    <div class="answers"></div>
+                                    <span class="spnQtd"></span>
+                        
+                                </div>
+                            </div>
+                            <div class="finish_content">
+                                <div class="finish">
+                                    <span></span>
+                                    <button>Refazer Quiz</button>
+                                    <!-- <a href="home.html">Sair</a> -->
+                                </div>
+                            </div>
+                            <script src="quizjs.js" type="module"></script>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- rodape -->
+    <footer>
+        <footer class="container_footer">
+            <div class="sobre_conteudo">
+                <h2>Sobre o S.A.R.T.A.D.S</h2>
+                <p>Software de Apoio e Recepcionamento aos Tecnólogos <br> em Análise e Desenvolvimento de Sistemas</p>
+                <p>Uma iniciativa de estudantes para estudantes</p>
+            </div>
+
+            <div class="sobre_conteudo">
+                <h2>Links Úteis</h2>
+                <i class="bi bi-universal-access-circle"></i>
+                <a href="">Acessibilidade</a>
+                <br>
+                <i class="bi bi-brush"></i>
+                <a href="">Tema</a>
+                <br>
+                <i class="bi bi-headset"></i>
+                <a href="">FAQ</a>
+            </div>
+
+            <div class="sobre_conteudo">
+                <h2>Fale Conosco</h2>
+                <i class="bi bi-envelope-at"></i>
+                <a href="">sartads@gmail.com</a>
+                <br>
+                <i class="bi bi-telephone"></i>
+                <a href="">(xx) xxxxx-xxxx</a>
+            </div>
+
+            <div class="redes_sociais">
+                <div>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-telegram"></i>
+                </div>
+                <div>
+                    <i class="bi bi-linkedin"></i>
+                    <i class="bi bi-facebook"></i>
+                </div>
+        </footer>
+</body>
+<!-- <h2>Sejam Bem Vindos!<br></h2>
+                            <p>Desejamos boas-vindas aos calouros no curso do nivel Tecnólogo de Análise e Desenvolvimento
+                                de
+                                Sistemas
+                                oferecido pelo IF Baiano Campus Guanambi! <br>
+                                A área da tecnologia é um ambiente sempre em expansão com oportunidades ilimitadas, mas
+                                ingressar
+                                nessa
+                                área<br>
+                                pode ser um processo díficil e confuso, o objetivo desse site é deixar esse processo mais
+                                suave para
+                                novos
+                                estudantes.<br>
+                                Neste site você pode encontrar informações cruciais para começar.</p> -->
+<!-- <h3>Sobre o Curso</h3>
+                            <p>O curso de Análise e Desenvolvimento de Sistemas é um curso de nível tecnológico focado em
+                                preparar
+                                profissionais de TI para o mercado de trabalho em diversas áreas da tecnologia, que vão
+                                desde
+                                Gerente de
+                                Projetos, Engenheiro de Software e Programador.<br>
+                                O curso de Análise e Desenvolvimento de Sistemas tem diversas matérias focadas em lógica e
+                                prática
+                                de
+                                programação, engenharia de softwares, desenvolvimento front e back-end, gerencia de banco de
+                                dados,
+                                história
+                                da programação e mais. </p> -->
+
+</html>

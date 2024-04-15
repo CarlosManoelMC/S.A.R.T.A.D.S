@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOTICIAS - S.A.R.T.A.D.S</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&family=IBM+Plex+Sans&family=Montserrat&family=Nunito+Sans:ital,opsz@0,6..12;1,6..12&family=Open+Sans:ital@1&family=Orbitron&family=Poppins&family=Raleway&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="s.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/notícias.css">
+</head>
+<body>
+     <!-- Libras -->
+     <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="limitador">
+            <div id="container_header">
+                <div class="caixa1">
+                    <a href="login.html" class="p1">
+                        S.A.R.T <br/>
+                        A.D.S
+                    </a>
+                </div>
+    
+                <div class="menu">
+                    <a href="home.html"><i class="bi bi-house"></i> Home</a>
+                    <a href="professor.html"><i class="bi bi-file-person"></i> Docente</a>
+                    <a href="local.html"><i class="bi bi-globe-americas"></i> Locais</a>
+                    <a href="notícias.html" id="noticias"><i class="bi bi-cup-hot"></i> Noticiais</a>  
+                </div>
+                    
+                <div class="perfil">
+                    <div class="img_pai">
+                        <div class="img">
+                            <img src="img/usuario.png" alt="perfil">
+                        </div>
+                    </div>
+                    <div class="nome_usuario">
+                        <a href="#">Asdrúbal Beltrano</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Corpo -->
+    <section >
+        <div class = "container_section">
+            <div id = "centro-topo">
+                <div id="centro-topo-esquerda">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide slideshow" data-bs-ride="carousel">
+                        <div class="carousel-inner slideshow-img">
+                            <div class="carousel-item active">
+                                <img src="./IMG/slide1.png" class="d-block w-100" alt="...">
+                                <div class="label-carrosel-menor carousel-caption d-none d-md-block">
+                                    <h5>Linguagem C</h5>
+                                    <p>Atravessando décadas como uma das linguagens de programação mais usadas no mundo, conheça a "mãe das linguagens"!</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./IMG/slide2.png" class="d-block w-100" alt="...">
+                                <div class="label-carrosel-menor carousel-caption d-none d-md-block">
+                                    <h5>Alan Turing</h5>
+                                    <p>Explore a mente brilhante de Alan Turing, o gênio por trás da revolução tecnológica que mudou o curso da história e aquele conhecido como pai da programação!</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./IMG/slide3.png" class="d-block w-100" alt="...">
+                                <div class="label-carrosel-menor carousel-caption d-none d-md-block">
+                                    <h5>Ada Lovelace</h5>
+                                    <p>Conheça a história inspiradora de Ada Lovelace, a pioneira visionária que deixou sua marca como a primeira programadora da história!</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./IMG/slide4.png" class="d-block w-100" alt="...">
+                                <div class="label-carrosel-menor carousel-caption d-none d-md-block">
+                                    <h5>Colossus</h5>
+                                    <p>Em tempos de guerra, o Colossus se ergue como um gigante, descubra como o primeiro computador mudou o rumo da Segunda Guerra Mundial!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card text-bg-dark card-menor">
+                        <img src="./IMG/notmenor1.jpg" class="card-menor" alt="...">
+                        <div class="card-menor-overlay">
+                            <h5>Título do card</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam autem earum corrupti ex beatae?</p>
+                            <p><small>Atualizado pela última vez há 3 dias atrás</small></p>
+                        </div>
+                    </div>
+                    <div class="card text-bg-dark card-menor">
+                        <img src="./IMG/notmenor2.png" class="card-menor" alt="...">
+                        <div class="card-menor-overlay">
+                            <h5 class="card-title">Título do card</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, culpa! Temporibus, excepturi debitis, eos illo atque explicabo.</p>
+                            <p class="card-text"><small>Atualizado pela última vez há 10 dias atrás</small></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="centro-topo-direita">  
+                    <div class="card text-bg-dark card-maior">
+                        <img src="./IMG/notmaior1.png" class="card-maior" alt="...">
+                        <div class="card-maior-overlay">
+                            <h5 class="card-title">Título do card</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam autem earum corrupti ex beatae?</p>
+                            <p class="card-text"><small>Atualizado pela última vez há 3 dias atrás</small></p>
+                        </div>
+                    </div>
+                    <div class="card text-bg-dark card-maior">
+                        <img src="./IMG/notmaior2.png" class="card-maior" alt="...">
+                        <div class="card-maior-overlay">
+                            <h5 class="card-title">Título do card</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam autem earum corrupti ex beatae?</p>
+                            <p class="card-text"><small>Atualizado pela última vez há 5 dias atrás</small></p>
+                        </div>
+                    </div>
+                    <div class="card text-bg-dark card-maior">
+                        <img src="./IMG/notmaior3.png" class="card-maior" alt="...">
+                        <div class="card-maior-overlay">
+                            <h5 class="card-title">Título do card</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam autem earum corrupti ex beatae?</p>
+                            <p class="card-text"><small>Atualizado pela última vez há 12 dias atrás</small></p>
+                        </div>
+                    </div>
+                    <div class="card text-bg-dark card-maior">
+                        <img src="./IMG/notmaior4.png" class="card-maior" alt="...">
+                        <div class="card-maior-overlay">
+                            <h5 class="card-title">Título do card</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam autem earum corrupti ex beatae?</p>
+                            <p class="card-text"><small>Atualizado pela última vez há 1 dia atrás</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id = "centro">
+                <div id="carouselExampleCaptions" class="carousel slide centro-carrosel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./IMG/carrosel1.png" class="d-block w-100" alt="...">
+                            <div class="label-carrosel-maior carousel-caption d-none d-md-block">
+                            <h5>Primeiro Slide</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./IMG/carrosel2.png" class="d-block w-100" alt="...">
+                            <div class="label-carrosel-maior carousel-caption d-none d-md-block">
+                            <h5>Segundo Slide</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./IMG/carrosel3.png" class="d-block w-100" alt="...">
+                            <div class="label-carrosel-maior carousel-caption d-none d-md-block">
+                            <h5>Terceiro Slide</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./IMG/carrosel4.png" class="d-block w-100" alt="...">
+                            <div class="label-carrosel-maior carousel-caption d-none d-md-block">
+                            <h5>Quarto Slide</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./IMG/carrosel5.png" class="d-block w-100" alt="...">
+                            <div class="label-carrosel-maior carousel-caption d-none d-md-block">
+                            <h5>Quinto Slide</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./IMG/carrosel6.png" class="d-block w-100" alt="...">
+                            <div class="label-carrosel-maior carousel-caption d-none d-md-block">
+                            <h5>Sexto Slide</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            
+            <div id = "centro-base">
+                <div id = "centro-base-esquerda">
+                    <div class="card text-bg-dark card-menor">
+                        <img src="./IMG/menor1.png" class="card-menor" alt="...">
+                        <div class="card-menor-overlay">
+                            <h5 class="card-title">Título do card</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, culpa! Temporibus, excepturi debitis, eos illo atque explicabo.</p>
+                            <p class="card-text"><small>Atualizado pela última vez há 14 dias atrás</small></p>
+                        </div>
+                    </div>
+                    <div class="card text-bg-dark card-menor">
+                        <img src="./IMG/menor2.png" class="card-menor" alt="...">
+                        <div class="card-menor-overlay">
+                            <h5 class="card-title">Título do card</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, culpa! Temporibus, excepturi debitis, eos illo atque explicabo.</p>
+                            <p class="card-text"><small>Atualizado pela última vez há 9 dias atrás</small></p>
+                        </div>
+                    </div>
+                    <div class="card text-bg-dark card-menor">
+                        <img src="./IMG/menor3.png" class="card-menor" alt="...">
+                        <div class="card-menor-overlay">
+                            <h5 class="card-title">Título do card</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, culpa! Temporibus, excepturi debitis, eos illo atque explicabo.</p>
+                            <p class="card-text"><small>Atualizado pela última vez há 4 dias atrás</small></p>
+                        </div>
+                    </div>
+                    <div class="card text-bg-dark card-menor">
+                        <img src="./IMG/menor4.png" class="card-menor" alt="...">
+                        <div class="card-menor-overlay">
+                            <h5 class="card-title">Título do card</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, culpa! Temporibus, excepturi debitis, eos illo atque explicabo.</p>
+                            <p class="card-text"><small>Atualizado pela última vez há 22 dias atrás</small></p>
+                        </div>
+                    </div>
+                    <div class="card text-bg-dark card-menor">
+                        <img src="./IMG/menor5.png" class="card-menor" alt="...">
+                        <div class="card-menor-overlay">
+                            <h5 class="card-title">Título do card</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, culpa! Temporibus, excepturi debitis, eos illo atque explicabo.</p>
+                            <p class="card-text"><small>Atualizado pela última vez há 3 dias atrás</small></p>
+                        </div>
+                    </div>
+                    <div class="card text-bg-dark card-menor">
+                        <img src="./IMG/menor6.png" class="card-menor" alt="...">
+                        <div class="card-menor-overlay">
+                            <h5 class="card-title">Título do card</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, culpa! Temporibus, excepturi debitis, eos illo atque explicabo.</p>
+                            <p class="card-text"><small>Atualizado pela última vez há 1 dia atrás</small></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id = "centro-base-direita">
+                    <div class="card text-bg-dark card-maior">
+                        <img src="./IMG/maior1.png" class="card-maior" alt="...">
+                        <div class="card-maior-overlay">
+                            <h5 class="card-title">Título do card</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam autem earum corrupti ex beatae?</p>
+                            <p class="card-text"><small>Atualizado pela última vez há 9 dias atrás</small></p>
+                        </div>
+                    </div>
+                    <div class="card text-bg-dark card-maior">
+                        <img src="./IMG/maior2.png" class="card-maior" alt="...">
+                        <div class="card-maior-overlay">
+                            <h5 class="card-title">Título do card</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam autem earum corrupti ex beatae?</p>
+                            <p class="card-text"><small>Atualizado pela última vez há 54 dias atrás</small></p>
+                        </div>
+                    </div>
+                    <div class="card text-bg-dark card-maior">
+                        <img src="./IMG/maior3.png" class="card-maior" alt="...">
+                        <div class="card-maior-overlay">
+                            <h5 class="card-title">Título do card</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam autem earum corrupti ex beatae?</p>
+                            <p class="card-text"><small>Atualizado pela última vez há 12 dias atrás</small></p>
+                        </div>
+                    </div>
+                    <div class="card text-bg-dark card-maior">
+                        <img src="./IMG/maior4.png" class="card-maior" alt="...">
+                        <div class="card-maior-overlay">
+                            <h5 class="card-title">Título do card</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam autem earum corrupti ex beatae?</p>
+                            <p class="card-text"><small>Atualizado pela última vez há 19 dias atrás</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- rodapé -->
+    <footer class = "container_footer">
+        <div class="sobre_conteudo">
+            <h2>Sobre o S.A.R.T.A.D.S</h2>
+            <p>Software de Apoio e Recepcionamento aos Tecnólogos <br> em Análise e Desenvolvimento de Sistemas</p>
+            <p>Uma iniciativa de estudantes para estudantes</p>
+        </div>
+
+        <div class="sobre_conteudo">
+            <h2>Links Úteis</h2>
+            <i class="bi bi-universal-access-circle"></i>
+            <a href="">Acessibilidade</a>
+            <br>
+            <i class="bi bi-brush"></i>
+            <a href="">Tema</a>
+            <br>
+            <i class="bi bi-headset"></i>
+            <a href="">FAQ</a>
+        </div>
+
+        <div class="sobre_conteudo">
+            <h2>Fale Conosco</h2>
+            <i class="bi bi-envelope-at"></i>
+            <a href="">sartads@gmail.com</a>
+            <br>
+            <i class="bi bi-telephone"></i>
+            <a href="">(xx) xxxxx-xxxx</a>
+        </div>
+
+        <div class="redes_sociais">
+            <div>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-telegram"></i>
+            </div>
+            <div>
+                <i class="bi bi-linkedin"></i>
+                <i class="bi bi-facebook"></i>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

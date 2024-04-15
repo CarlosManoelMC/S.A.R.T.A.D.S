@@ -1,0 +1,220 @@
+
+.login-1{
+    z-index: 1;
+    background-color: #12273A;
+    width: 500px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ffffff;
+    box-shadow: 0 0 15px #ffffff, inset 0 0 8px white;
+    border-radius: 20px 0px 0px 20px;
+    /* animation-name: teste;
+    animation-duration: 10s;
+    animation-iteration-count: infinite; */
+
+    
+}
+/* @keyframes teste {
+    0%   {border: 2px solid #ffffff;}
+    25%  {border: 2px solid #12273A;}
+    50%  {border: 2px solid #ffffff;}
+    100% {border: 2px solid #12273A;}
+} */
+
+.login-2{
+    background-color: white;
+    width: 500px;
+    height: 450px;
+    border:2px solid #ffffff;
+    box-shadow: 0 0 15px #ffffff, inset 0 0 8px white;
+    border-radius: 0px 20px 20px 0px;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    flex-direction: column;
+    align-items: center;
+    
+}   
+.login-2 form{
+    display: flex;
+    flex-direction: column;;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #194569;
+
+}
+.login-2 input{
+    margin-top: 10px;
+    width: 350px;
+    background-color: #f4f4f4;
+    color: #12273A;
+    border: none;
+    border-radius: 30px;
+    padding-left: 15px;
+    height: 45px;
+    outline: none;
+    
+}
+input::placeholder{
+    color: #c7c7c7;
+    
+}
+
+#chec{
+    background-color: #194569;
+    color: white;
+    font-size: 20px;
+    transition: 0.5s;
+    padding: 5px;
+    width: 300px;
+    height: 45px;
+    border-radius: 30px;
+    text-decoration: none;
+
+
+}
+#chec:hover{
+    background-color: white;
+    color: #12273A;
+    border: 2px solid #12273A;
+    
+}
+
+.entrar{
+    display: flex;
+    flex-direction: column;;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #194569;
+}
+
+
+.a{
+    text-decoration: none;
+    color: #174266;
+    font-weight: bold
+}
+
+
+#icone_usuario{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100px;
+    margin-bottom: 20px;
+    
+}
+#icone_usuario h3{
+    margin-top: 10px;
+}
+#container{
+    display: flex;  
+    width: 100%;
+    /* background-color: aqua; */
+    justify-content: center;
+    margin-top: 150px;
+}
+
+#body{
+    background-image:url(background.webp);
+}
+
+#logo{
+    border-radius: 100%;
+}
+.text{
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* #olho{
+    position: relative;
+} */
+
+div i{
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    right: 40px;
+    color: #194569;
+}
+
+#checkbox{
+    width: 16px;
+    height: 16px;
+    align-items: center;
+    
+
+}
+.caixa{
+    height: 30px;
+    width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 12px;
+    cursor: pointer;
+    
+}
+.caixa label{
+    font-size: 14px;
+    padding: 6px 0px 0px 4px;
+    
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.caixa1 {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    color: white;
+    background-image: url(https://cdn.pixabay.com/photo/2021/11/14/20/08/background-6795626_960_720.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    font-size: 35px;
+    font-family: 'Orbitron', sans-serif;
+    
+}
+.caixa1::before, .caixa1::after{
+    content:'';
+    position: absolute;
+    border-radius: 100%;
+    z-index: -1;
+    width: calc(100% + 20px);
+    height: calc(100% + 20px);
+    background: linear-gradient(45deg, #ffffff, #12273A, #f6fbff, #12273A, #ffffff, #12273A, #ffffff,
+    #12273A, #ffffff, #12273A, #ffffff, #12273A);
+    background-size: 300%;
+    animation: animarBorda 5s linear infinite;
+}
+
+.caixa1::after{
+    filter: blur(50px);
+}
+
+@keyframes animarBorda{
+    0%{
+        background-position: 0;
+    }
+
+    100%{
+        background-position: 300%;
+    }
+
+
+}
+p.p1{
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+    margin-top: 13px;
+    
+}

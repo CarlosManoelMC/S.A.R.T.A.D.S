@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOCENTE - S.A.R.T.A.D.S</title>
+    <link rel="stylesheet" href="css/professorStyle.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&family=IBM+Plex+Sans&family=Montserrat&family=Nunito+Sans:ital,opsz@0,6..12;1,6..12&family=Open+Sans:ital@1&family=Orbitron&family=Poppins&family=Raleway&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="s.ico" type="image/x-icon">
+    <script src="js/professor.js"></script>
+    
+</head>
+<body>
+    <!-- Libras -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="limitador">
+            <div id="container_header">
+                <div class="caixa1">
+                    <a href="login.html" class="p1">
+                        S.A.R.T <br/>
+                        A.D.S
+                    </a>
+                </div>
+    
+                <div class="menu">
+                    <a href="home.html"><i class="bi bi-house"></i> Home</a>
+                    <a href="#" id="professor"><i class="bi bi-file-person"></i> Docente</a>
+                    <a href="local.html"><i class="bi bi-globe-americas"></i> Locais</a>
+                    <a href="notícias.html"><i class="bi bi-cup-hot"></i> Noticiais</a>  
+                </div>
+                    
+                <div class="perfil">
+                    <div class="img_pai">
+                        <div class="img">
+                            <img src="img/usuario.png" alt="perfil">
+                        </div>
+                    </div>
+                    <div class="nome_usuario">
+                        <a href="#">Asdrúbal Beltrano</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Corpo -->
+    <section >
+        <div class = "container_section">
+            <div id="conteudo">
+                <div id="pesquisa">
+                    <div class="container_pesquisa">
+                        <input id="pesquisar_nome" type="text" placeholder="Pesquisar o nome" onkeyup="pesquisar()">
+                        <i class="bi bi-search"></i>
+                    </div>
+                </div>
+                <div id="area_cards">
+                    <div class="card_completo">
+                        <div class="card_professor_cima">
+                            <div id="fundo_icone_card">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <p class="nome_professor" >Romulo Nunes</p>
+                        </div>
+                        <div class="card_professor_baixo">
+                            <a href="#">Acessar</a>
+                        </div>
+                    </div>
+                    <div class="card_completo">
+                        <div class="card_professor_cima">
+                            <div id="fundo_icone_card">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <p class="nome_professor" >João Paulo</p>
+                        </div>
+                        <div class="card_professor_baixo">
+                            <a href="#">Acessar</a>
+                        </div>
+                    </div>
+                    <div class="card_completo">
+                        <div class="card_professor_cima">
+                            <div id="fundo_icone_card">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <p class="nome_professor" >Naidson Clayr</p>
+                        </div>
+                        <div class="card_professor_baixo">
+                            <a href="#">Acessar</a>
+                        </div>
+                    </div>
+                    <div class="card_completo">
+                        <div class="card_professor_cima">
+                            <div id="fundo_icone_card">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <p class="nome_professor" >Martha De Cassia</p>
+                        </div>
+                        <div class="card_professor_baixo">
+                            <a href="#">Acessar</a>
+                        </div>
+                    </div>
+                    <div class="card_completo">
+                        <div class="card_professor_cima">
+                            <div id="fundo_icone_card">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <p class="nome_professor" >George Mendes</p>
+                        </div>
+                        <div class="card_professor_baixo">
+                            <a href="#">Acessar</a>
+                        </div>
+                    </div>
+                    <div class="card_completo">
+                        <div class="card_professor_cima">
+                            <div id="fundo_icone_card">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <p class="nome_professor" >Queila Nascimento</p>
+                        </div>
+                        <div class="card_professor_baixo">
+                            <a href="#">Acessar</a>
+                        </div>
+                    </div>
+                    <div class="card_completo">
+                        <div class="card_professor_cima">
+                            <div id="fundo_icone_card">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <p class="nome_professor" >Roberto Carlos</p>
+                        </div>
+                        <div class="card_professor_baixo">
+                            <a href="#">Acessar</a>
+                        </div>
+                    </div>
+                    <div class="card_completo">
+                        <div class="card_professor_cima">
+                            <div id="fundo_icone_card">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <p class="nome_professor" >Woquiton Lima</p>
+                        </div>
+                        <div class="card_professor_baixo">
+                            <a href="#">Acessar</a>
+                        </div>
+                    </div>
+                    <div class="card_completo">
+                        <div class="card_professor_cima">
+                            <div id="fundo_icone_card">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <p class="nome_professor" >Carlos Anderson</p>
+                        </div>
+                        <div class="card_professor_baixo">
+                            <a href="#">Acessar</a>
+                        </div>
+                    </div>
+                    <div class="card_completo">
+                        <div class="card_professor_cima">
+                            <div id="fundo_icone_card">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <p class="nome_professor" >Daniele Brito</p>
+                        </div>
+                        <div class="card_professor_baixo">
+                            <a href="#">Acessar</a>
+                        </div>
+                    </div>
+                    <div class="card_completo">
+                        <div class="card_professor_cima">
+                            <div id="fundo_icone_card">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <p class="nome_professor" >Reinaldo Cotrim</p>
+                        </div>
+                        <div class="card_professor_baixo">
+                            <a href="#">Acessar</a>
+                        </div>
+                    </div>
+                    <div class="card_completo">
+                        <div class="card_professor_cima">
+                            <div id="fundo_icone_card">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <p class="nome_professor" >Dario Soares</p>
+                        </div>
+                        <div class="card_professor_baixo">
+                            <a href="#">Acessar</a>
+                        </div>
+                    </div>
+                    <div class="card_completo">
+                        <div class="card_professor_cima">
+                            <div id="fundo_icone_card">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <p class="nome_professor" >Barbara Katharinne</p>
+                        </div>
+                        <div class="card_professor_baixo">
+                            <a href="#">Acessar</a>
+                        </div>
+                    </div>
+                    <div class="card_completo">
+                        <div class="card_professor_cima">
+                            <div id="fundo_icone_card">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <p class="nome_professor" >Paula Patricia</p>
+                        </div>
+                        <div class="card_professor_baixo">
+                            <a href="#">Acessar</a>
+                        </div>
+                    </div>
+                    <div class="card_completo">
+                        <div class="card_professor_cima">
+                            <div id="fundo_icone_card">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <p class="nome_professor" >Asdrubal Francesco</p>
+                        </div>
+                        <div class="card_professor_baixo">
+                            <a href="#">Acessar</a>
+                        </div>
+                    </div>
+                    <div class="card_completo">
+                        <div class="card_professor_cima">
+                            <div id="fundo_icone_card">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <p class="nome_professor" >Joao e Maria</p>
+                        </div>
+                        <div class="card_professor_baixo">
+                            <a href="#">Acessar</a>
+                        </div>
+                    </div>
+                    <div class="card_completo">
+                        <div class="card_professor_cima">
+                            <div id="fundo_icone_card">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <p class="nome_professor" >Jose Pereira</p>
+                        </div>
+                        <div class="card_professor_baixo">
+                            <a href="#">Acessar</a>
+                        </div>
+                    </div>
+                    <div class="card_completo">
+                        <div class="card_professor_cima">
+                            <div id="fundo_icone_card">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <p class="nome_professor" >jose silva</p>
+                        </div>
+                        <div class="card_professor_baixo">
+                            <a href="#">Acessar</a>
+                        </div>
+                    </div>
+                    <div class="card_completo">
+                        <div class="card_professor_cima">
+                            <div id="fundo_icone_card">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <p class="nome_professor" >jose astrubal</p>
+                        </div>
+                        <div class="card_professor_baixo">
+                            <a href="#">Acessar</a>
+                        </div>
+                    </div>
+                    <div class="card_completo">
+                        <div class="card_professor_cima">
+                            <div id="fundo_icone_card">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <p class="nome_professor" >Francesco Barbosa</p>
+                        </div>
+                        <div class="card_professor_baixo">
+                            <a href="#">Acessar</a>
+                        </div>
+                    </div>
+                    <div class="card_completo">
+                        <div class="card_professor_cima">
+                            <div id="fundo_icone_card">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <p class="nome_professor" >Ingrid Soares</p>
+                        </div>
+                        <div class="card_professor_baixo">
+                            <a href="#">Acessar</a>
+                        </div>
+                    </div>
+                    <div class="card_completo">
+                        <div class="card_professor_cima">
+                            <div id="fundo_icone_card">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <p class="nome_professor" >Dayane Soares</p>
+                        </div>
+                        <div class="card_professor_baixo">
+                            <a href="#">Acessar</a>
+                        </div>
+                    </div>
+                    <div class="card_completo">
+                        <div class="card_professor_cima">
+                            <div id="fundo_icone_card">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <p class="nome_professor" >Islan Nilton</p>
+                        </div>
+                        <div class="card_professor_baixo">
+                            <a href="#">Acessar</a>
+                        </div>
+                    </div>
+                    <div class="card_completo">
+                        <div class="card_professor_cima">
+                            <div id="fundo_icone_card">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <p class="nome_professor" >Joazinho Silvinha</p>
+                        </div>
+                        <div class="card_professor_baixo">
+                            <a href="#">Acessar</a>
+                        </div>
+                    </div>
+                    <div class="card_completo">
+                        <div class="card_professor_cima">
+                            <div id="fundo_icone_card">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <p class="nome_professor" >Fulano de tal</p>
+                        </div>
+                        <div class="card_professor_baixo">
+                            <a href="#">Acessar</a>
+                        </div>
+                    </div>
+                    <div class="card_completo">
+                        <div class="card_professor_cima">
+                            <div id="fundo_icone_card">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <p class="nome_professor" >Beltrano</p>
+                        </div>
+                        <div class="card_professor_baixo">
+                            <a href="#">Acessar</a>
+                        </div>
+                    </div>
+                    <div class="card_completo">
+                        <div class="card_professor_cima">
+                            <div id="fundo_icone_card">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <p class="nome_professor" >Nome do profeossor</p>
+                        </div>
+                        <div class="card_professor_baixo">
+                            <a href="#">Acessar</a>
+                        </div>
+                    </div>
+                    <div class="card_completo">
+                        <div class="card_professor_cima">
+                            <div id="fundo_icone_card">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <p class="nome_professor" >Nome do profeossor</p>
+                        </div>
+                        <div class="card_professor_baixo">
+                            <a href="#">Acessar</a>
+                        </div>
+                    </div>
+                    <div class="card_completo">
+                        <div class="card_professor_cima">
+                            <div id="fundo_icone_card">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <p class="nome_professor" >Nome do profeossor</p>
+                        </div>
+                        <div class="card_professor_baixo">
+                            <a href="#">Acessar</a>
+                        </div>
+                    </div>
+                    <div class="card_completo">
+                        <div class="card_professor_cima">
+                            <div id="fundo_icone_card">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <p class="nome_professor" >Nome do profeossor</p>
+                        </div>
+                        <div class="card_professor_baixo">
+                            <a href="#">Acessar</a>
+                        </div>
+                    </div>
+                    <div class="card_completo">
+                        <div class="card_professor_cima">
+                            <div id="fundo_icone_card">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <p class="nome_professor" >Nome do profeossor</p>
+                        </div>
+                        <div class="card_professor_baixo">
+                            <a href="#">Acessar</a>
+                        </div>
+                    </div>
+                    <div class="card_completo">
+                        <div class="card_professor_cima">
+                            <div id="fundo_icone_card">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <p class="nome_professor" >Nome do profeossor</p>
+                        </div>
+                        <div class="card_professor_baixo">
+                            <a href="#">Acessar</a>
+                        </div>
+                    </div>
+                    <div class="card_completo">
+                        <div class="card_professor_cima">
+                            <div id="fundo_icone_card">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <p class="nome_professor" >Nome do profeossor</p>
+                        </div>
+                        <div class="card_professor_baixo">
+                            <a href="#">Acessar</a>
+                        </div>
+                    </div>
+                    <div class="card_completo">
+                        <div class="card_professor_cima">
+                            <div id="fundo_icone_card">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <p class="nome_professor" >Nome do profeossor</p>
+                        </div>
+                        <div class="card_professor_baixo">
+                            <a href="#">Acessar</a>
+                        </div>
+                    </div>
+                    <div class="card_completo">
+                        <div class="card_professor_cima">
+                            <div id="fundo_icone_card">
+                                <i class="bi bi-person-circle"></i>
+                            </div>
+                            <p class="nome_professor" >Nome do profeossor</p>
+                        </div>
+                        <div class="card_professor_baixo">
+                            <a href="#">Acessar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- rodapé -->
+    <footer class = "container_footer">
+        <div class="sobre_conteudo">
+            <h2>Sobre o S.A.R.T.A.D.S</h2>
+            <p>Software de Apoio e Recepcionamento aos Tecnólogos <br> em Análise e Desenvolvimento de Sistemas</p>
+            <p>Uma iniciativa de estudantes para estudantes</p>
+        </div>
+
+        <div class="sobre_conteudo">
+            <h2>Links Úteis</h2>
+            <i class="bi bi-universal-access-circle"></i>
+            <a href="">Acessibilidade</a>
+            <br>
+            <i class="bi bi-brush"></i>
+            <a href="">Tema</a>
+            <br>
+            <i class="bi bi-headset"></i>
+            <a href="">FAQ</a>
+        </div>
+
+        <div class="sobre_conteudo">
+            <h2>Fale Conosco</h2>
+            <i class="bi bi-envelope-at"></i>
+            <a href="">sartads@gmail.com</a>
+            <br>
+            <i class="bi bi-telephone"></i>
+            <a href="">(xx) xxxxx-xxxx</a>
+        </div>
+
+        <div class="redes_sociais">
+            <div>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-telegram"></i>
+            </div>
+            <div>
+                <i class="bi bi-linkedin"></i>
+                <i class="bi bi-facebook"></i>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

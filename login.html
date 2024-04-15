@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.A.R.T.A.D.S</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="s.ico" type="image/x-icon">
+    <script src="js/login.js"></script>
+</head>
+<body id="body">
+    <!-- Libras -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+    <!-- Corpo -->
+    <section class="area_logo">
+        <div id="container">
+            <div class="login-1">
+                <div class="caixa1">
+                    <p class="p1">S.A.R.T <br> A.D.S</p>
+                </div>
+            </div>
+            <div class="login-2">
+                <div id="icone_usuario">
+                    <img id="icone" src="img/usuario.png" alt="icone" width="100">
+                    <h3 class="text">Login</h3>
+                </div>
+                <form method="post">
+                    <input type="text" name="nome" placeholder="Digite sua matricula" autofocus>
+                    <div>
+                        <input id="senha" type="password" name="senha" placeholder="Digite sua senha">
+                        <i class="bi bi-eye" id="btn-senha" onclick="mostrarsenha(), trocaimg()"></i>
+                    </div>
+                    
+                    <div class="caixa">
+                        <input id="checkbox" type="checkbox">
+                        <label for="checkbox">Lembre-me</label>
+                    </div>
+                </form>
+                <div class="entrar">
+                    <a id="chec" href="home.html">Entrar</a>
+                    <p>Esqueceu a sua senha?<a class="a" href="https://cau.ifbaiano.edu.br/cau/forgot-password" target="_blank"> Clique Aqui</a></p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Poppins:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Poppins:wght@100&display=swap');
+
+
+.content_quiz {
+    padding: 10px;
+    font-family: "poppins" sans-serif;
+    display: block;
+    height: 400px;
+    width: 600px;
+    background-color: #f6f6ff;
+    text-align: center;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+.titulo_quiz {
+    font-family: "orbitron", sans-serif;
+    color: #12273a;
+    font-weight: bold;
+}
+
+.finish button, .content_quiz button{
+    text-align: start;
+    font-family: "poppins", sans-serif;
+    padding: 5px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #e6e6e6(183, 238, 255);
+    color: #12273a;
+    font-weight: bolder;
+}
+.finish a{
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #e7e6e6;
+    color: #12273a;
+    font-weight: bolder;
+    font-size: 14px;
+    height:25px;
+    width: 60px;
+    
+}
+
+.finish {
+    padding: 10px;
+    font-family: "poppins" sans-serif;
+    display: none;
+    height: 400px;
+    width: 600px;
+    background-color: #f6f6ff;
+    text-align: center;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.finish button {
+align-self: bottom;
+bottom: 100px;
+}
+
+.question {
+    font-family: "poppins", sans-serif;
+    font-size: medium;
+    padding: 10px;
+
+    font-weight: bolder;
+    background-color: #12273a;
+    color: #e6e6e6;
+    align-self: center;
+    border-radius: 5px;
+}
+
+.finish button:hover, .content_quiz button:hover, .finish a:hover{
+    background-color: #12273a;
+    color: #e6e6e6;
+}
+
+.finish_content {
+    align-items: center;
+    display: flex;
+    font-family: "poppins", sans-serif;
+    font-weight: bolder;
+    background-color: #12273a;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.spnQtd {
+    font-family: "poppins", sans-serif;
+    font-weight: bolder;
+    background-color: #12273a;
+    color:#e6e6e6;
+    border-radius: 5px;
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 450px;
+
+}

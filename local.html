@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOCAL - S.A.R.T.A.D.S</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link href="css/local.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&family=IBM+Plex+Sans&family=Montserrat&family=Nunito+Sans:ital,opsz@0,6..12;1,6..12&family=Open+Sans:ital@1&family=Orbitron&family=Poppins&family=Raleway&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="s.ico" type="image/x-icon">
+</head>
+<body>
+     <!-- Libras -->
+     <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+    <!-- Cabecalho -->
+    <header>
+        <div class="background">
+            <div class="limitador">
+                <div id="container_header">
+                    <div class="caixa1">
+                        <a href="login.html" class="p1">
+                            S.A.R.T <br/>
+                            A.D.S
+                        </a>
+                    </div>
+
+                    <div class="menu">
+                        <a href="home.html"><i class="bi bi-house"></i> Home</a>
+                        <a href="professor.html"><i class="bi bi-file-person"></i> Docente</a>
+                        <a href="#" id="local"><i class="bi bi-globe-americas"></i> Locais</a>
+                        <a href="notícias.html"><i class="bi bi-cup-hot"></i> Noticiais</a>
+                    </div>
+
+                    <div class="perfil">
+                        <div class="img_pai">
+                            <div class="img">
+                                <img src="img/usuario.png" alt="perfil">
+                            </div>
+                        </div>
+                        <div class="nome_usuario">
+                            <a href="#">Asdrúbal Beltrano</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <body>
+        <!-- Corpo -->
+        <section>
+            <div class="container_section">
+                <div class="main_body">
+                    <div class="title1">
+                        <h1>Mapa do IF Baiano e seus arredores</h1>
+                    </div>
+                    <div class="conteudo">
+                        <div class="mapa">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2620.305813383229!2d-42.69347787181061!3d-14.302017107706329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1spt-BR!2sbr!4v1691263631116!5m2!1spt-BR!2sbr"
+                                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </body>
+
+    <footer>
+        <footer class="container_footer">
+            <div class="sobre_conteudo">
+                <h2>Sobre o S.A.R.T.A.D.S</h2>
+                <p>Software de Apoio e Recepcionamento aos Tecnólogos <br> em Análise e Desenvolvimento de Sistemas</p>
+                <p>Uma iniciativa de estudantes para estudantes</p>
+            </div>
+
+            <div class="sobre_conteudo">
+                <h2>Links Úteis</h2>
+                <i class="bi bi-universal-access-circle"></i>
+                <a href="">Acessibilidade</a>
+                <br>
+                <i class="bi bi-brush"></i>
+                <a href="">Tema</a>
+                <br>
+                <i class="bi bi-headset"></i>
+                <a href="">FAQ</a>
+            </div>
+
+            <div class="sobre_conteudo">
+                <h2>Fale Conosco</h2>
+                <i class="bi bi-envelope-at"></i>
+                <a href="">sartads@gmail.com</a>
+                <br>
+                <i class="bi bi-telephone"></i>
+                <a href="">(xx) xxxxx-xxxx</a>
+            </div>
+
+            <div class="redes_sociais">
+                <div>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-telegram"></i>
+                </div>
+                <div>
+                    <i class="bi bi-linkedin"></i>
+                    <i class="bi bi-facebook"></i>
+                </div>
+        </footer>
+</body>
+
+</html>
